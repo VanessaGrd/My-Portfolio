@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Mulish&family=Poppins&display=swap');
 *{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
-
 body{
-    background-color: #425B5A;
+    background-color:  #F9F9F9;
 }
 /*Navbar*/
 .header{
@@ -17,43 +18,47 @@ body{
     
 }
 .navbar{
-    background-color: #F5E0B7;
-    border-bottom-left-radius:  7px 7px;
+    background-color: white;
+    color: #2d2e32;;
      display: flex;
     flex-direction: row;
-justify-content: space-around;
+justify-content: flex-end;
 text-decoration: none;
 list-style-type: none;
-    width: 600px;
+    width: 100vw;
     height: 80px;
     align-items: center;
-    font-size: 1.8em;
     margin: 0;
-    box-shadow: 10px 5px 5px rgb(56, 53, 53);    
+    box-shadow: 8px 5px 5px rgb(173, 171, 171);    
 }
 .navbar a{
-    color: #425B5A;
+    color: #2d2e32;
     background-color: transparent;
     text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 900;
+
+
+
 }
 /*Logo*/
 .logo{
-    width: 400px;
-    height: 150px;
+    width: 170px;
+    height: 80px;
     position: absolute;
     left: 0;
-    top : 100;
+    top : 0;
     z-index: 0;
 
 }
 /*picture*/
 .picture{
-    position: absolute;
-    top: 150px;
-    left:0px;
-    z-index: 0;
-    width: 500px;
 
+    width: 400px;
+    border-radius: 50% 40% 50%;
+    position: relative;
+   
     }
 
     /*About*/
@@ -61,38 +66,147 @@ list-style-type: none;
  display: flex;
  flex-direction: column;
  justify-content: center;
+ align-items: start;
+ position: relative;
  width: 80%;
  padding-left: 250px;
- padding-top : 150px;
-
+ padding-top :150px;
+ margin-top: 100px;
+ color: #2d2e32;
 }
-
+.aboutBlock{
+display: flex;
+flex-direction: row;
+}
     .title{
-        color: #F5E0B7;
+    display: flex;
+    flex-direction: column;
+    max-width: 50rem;
+    position: relative;
 
     }
     .title h1{
-        font-size: 60px;
+        font-size: 55px;
+        line-height: 1.2;
+        margin-bottom: 2rem;
+        font-weight: 900;
+        font-size: 2.9em;
+        margin-block-start: 0.67em;
+        margin-block-end: 0.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
     }
 
     .title h2{
-        font-size: 36px;
+        font-size: 1.2rem;
+        color:#767676;
+        font-weight: 500;
+        line-height: 1.4;
+        font-family: 'Mulish', sans-serif;
     }
 
-    .title span{
-        text-shadow: 10px 5px 5px rgb(56, 53, 53);    
+ 
    
+
+
+    .logoLinkedin{
+        width: 30px;
+        height: 30px;
+        padding-right: 10px;
+        
     }
-    .subtitle{
-        color: #F5E0B7;
-        text-align:justify;
+    .logoLinkedin:hover{
+        cursor: pointer;
+    }
+    .logoGithub{
+        width: 30px;;
+        height: 30px;
+    }
+
+    .logoContainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 100px;
+    }
+
+    .logoContainer:hover{
+        cursor: pointer;
+    }
+    .skills{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        list-style-type: none;
+        text-decoration: none;
+        padding-top: 50px;
 
     }
+    .skills p {
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+.skills ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: auto;
+}
+    .skills ul li{
+   
+        justify-content: center;
+        list-style-type: none;
+        font-size: 1.1rem;
+        margin-left: 8px;
+        margin-right: 8px;
+       padding: 10px;
+        background-color: #F5E0B7;
+        border-radius : 10px;
+      box-shadow: 8px 5px 5px rgb(173, 171, 171);    
 
-    .subtitle h3{
-        font-size: 24px;
+        
+    }
+    /*About*/
+    .aboutContainer img{
+        width: 500px;
+        
+    }
+    .aboutContainer{
+        display: flex;
+        flex-direction: row ;
+        align-items: center;
+        width: 80%;
+    }
+    .aboutText{
+        margin:20px;
+        font-size: 1.2rem;
+    }
+    /*Projects*/
+    .projectsContainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    
+    }
+    .projectsContainer .projet1{
+width: 250px;
+height: 300px;
+box-shadow: 10px 5px 5px rgb(56, 53, 53); 
+border-radius: 10px;   
+}
+.projectsContainer .projet2{
+    width: 250px;
+    height: 300px;
+    box-shadow: 10px 5px 5px rgb(56, 53, 53); 
+    border-radius: 10px;   
     }
 
-    .subtitle p{
-        font-size: 24px;
+    .projectsContainer .CVpicture{
+        width: 250px;
+        height: 300px;
+        box-shadow: 10px 5px 5px rgb(56, 53, 53); 
+        border-radius: 10px; 
     }
