@@ -7,6 +7,10 @@
 }
 body{
     background-color:  #F9F9F9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 /*Navbar*/
 .header{
@@ -66,13 +70,14 @@ list-style-type: none;
  display: flex;
  flex-direction: column;
  justify-content: center;
- align-items: start;
+ align-items: center;
  position: relative;
- width: 80%;
- padding-left: 250px;
- padding-top :150px;
+ width: 70vw;
+ 
  margin-top: 100px;
+ margin-bottom: 200px;
  color: #2d2e32;
+ height: 500px;
 }
 .aboutBlock{
 display: flex;
@@ -177,36 +182,11 @@ flex-direction: row;
     .aboutContainer{
         display: flex;
         flex-direction: row ;
+        justify-content: space-between;
         align-items: center;
-        width: 80%;
+        width: 70vw;
     }
     .aboutText{
         margin:20px;
         font-size: 1.2rem;
-    }
-    /*Projects*/
-    .projectsContainer{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    
-    }
-    .projectsContainer .projet1{
-width: 250px;
-height: 300px;
-box-shadow: 10px 5px 5px rgb(56, 53, 53); 
-border-radius: 10px;   
-}
-.projectsContainer .projet2{
-    width: 250px;
-    height: 300px;
-    box-shadow: 10px 5px 5px rgb(56, 53, 53); 
-    border-radius: 10px;   
-    }
-
-    .projectsContainer .CVpicture{
-        width: 250px;
-        height: 300px;
-        box-shadow: 10px 5px 5px rgb(56, 53, 53); 
-        border-radius: 10px; 
     }
