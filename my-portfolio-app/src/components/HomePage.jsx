@@ -20,10 +20,10 @@ function HomePage() {
             <a href="#projects">Réalisations</a>
           </li>
           <li>
-          <a href="#CV">CV</a>
+            <a href="#CV">CV</a>
           </li>
           <li>
-          <a href="#contact">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </header>
@@ -94,12 +94,9 @@ function HomePage() {
           </div>
         </section>
         <section className={styles.projects} id="projects">
-          <Projects/>
-          
+          <Projects />
         </section>
-        <section className={styles.CV} id="CV">
-
-        </section>
+        <section className={styles.CV} id="CV"></section>
       </body>
     </main>
   );
