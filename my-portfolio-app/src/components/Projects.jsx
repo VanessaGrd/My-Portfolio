@@ -9,14 +9,14 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <h3>Projets</h3>
         <div className={styles.projectsBox}>
-          <h2>Projets pédagogiques de groupe</h2>
           <div className={styles.project}>
             <img src={projet1} alt="projet1" />
 
             <div className={styles.overlay}>
               <div className={styles.overlayText}>
                 <h2>WILDKED'IN</h2>
-                <p>
+                <p>Projet pédagogique en groupe de 4.<br>
+                </br><br></br>
                   Portfolio des étudiants de la WCS à destination des recruteurs
                   qui peuvent filtrer en fonction des hardskills et des
                   softskills recherchés. <br></br> <br></br>Technos utilisées :{" "}
@@ -38,6 +38,8 @@ function Projects() {
                 <a href="https://daily-expat.netlify.app/">
                   <h2>DAILY EXPAT</h2>
                   <p>
+                  Projet pédagogique en groupe de 3.<br>
+                </br><br></br>
                     Site à destination des expatriés qui souhaitent renouer avec
                     leur pays d'origine.
                     <br></br> Ils peuvent retrouver des images, des musiques,
@@ -61,7 +63,8 @@ function Projects() {
             
                 <h2>APPLE VOLUNTEERS</h2>
                 <p>
-                  Projet réalisé en 24h lors d'un hackathon. <br></br>Site d'une
+                  Projet de groupe de 3, réalisé en 24h lors d'un hackathon. .<br>
+                </br><br></br>Site d'une
                   association qui propose de réserver des visites gratuites de
                   New-York, en fonction des quartiers choisis par le touriste et
                   des volontaires disponibles. <br /><br />

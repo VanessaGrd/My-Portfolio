@@ -9,8 +9,8 @@ scroll-snap-align: start;
 }
 
 .aboutContainer img{
-    width: 40%;
-    height: 40vh;
+    width: 40vw;
+    height: 45vh;
     padding-right: 20px;
 
 }
@@ -23,4 +23,21 @@ scroll-snap-align: start;
 }
 .aboutText{
     height: 40vh;
+}
+
+@media screen and (max-width: 700px) {
+    .aboutContainer img{
+        height: 20vh;
+        width: 50vw;
+    }
+
+    .aboutContainer{
+        width: 100vw;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
