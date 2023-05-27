@@ -1,0 +1,26 @@
+.aboutContainer{
+  display: flex;
+  flex-direction: row;
+  width: 70vw;
+  height: 100vh;
+  padding-top: 300px;
+scroll-snap-align: start;
+
+}
+
+.aboutContainer img{
+    width: 40%;
+    height: 40vh;
+    padding-right: 20px;
+
+}
+.aboutText p{
+    font-size: 1.5rem;
+}
+.aboutText h3{
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+.aboutText{
+    height: 40vh;
+}
