@@ -8,18 +8,13 @@ function About() {
   <div className={styles.aboutContainer}>
     <img src={pictureRandom} alt="pictureRandom" />
     <div className={styles.aboutText}>
-      <h3>A propos de moi</h3>
+      <h3>About me</h3>
       <p>
-        Après 15 années dans le milieu médical je m'oriente vers un
-        métier qui m'a toujours attirée, développeur web ! 👩🏼‍💻 <br />
+      After 15 years in the medical field, I am moving towards a job that has always attracted me, web developer! 👩🏼‍💻<br />
         <br />
-        C'est la mise en place et le paramétrage d'un logiciel de
-        rendez-vous d'imagerie qui a confirmé mon choix de me lancer
-        dans le développement. <br />
+        It was the implementation and configuration of an imaging appointment software that confirmed my choice to embark on development. <br />
         <br />
-        Désormais pleinement épanouie dans cette nouvelle voie, je
-        recherche une entreprise qui me permettra d'exprimer ma
-        créativité et de partager un bon esprit d'équipe.{" "}
+        <span>Now fully fulfilled in this new direction, I am looking for a company that will allow me to express my creativity and share a good team spirit.</span>
       </p>
     </div>
   </div>

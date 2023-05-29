@@ -9,15 +9,15 @@ function Navbar() {
       <ul className={styles.navbar}>
       <img className={styles.logo} src={logo} alt="logo" />
 <div className={styles.navbarLinks}>
+<li>
+          <a href="#presentation">Presentation</a>
+        </li>
         <li>
-          <a href="#about">A propos</a>
+          <a href="#about">About</a>
         </li>
         <li>
           {" "}
-          <a href="#projects">Réalisations</a>
-        </li>
-        <li>
-          <a href="#CV">CV</a>
+          <a href="#projects">Projects</a>
         </li>
         <li>
           <a href="#contact">Contact</a>

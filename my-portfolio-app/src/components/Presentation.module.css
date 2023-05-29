@@ -8,7 +8,7 @@
     }
     figure{
       
-        background-color:#eaeaea;
+        background-color:whitesmoke;
         padding: 19px 19px 75px 19px;
         margin: 40px;
         position:relative;
@@ -92,7 +92,7 @@
     
     
         .logoLinkedin{
-            width: 3.5rem;
+            width: 3rem;
             padding-right: 10px;
             
         }
@@ -100,7 +100,7 @@
             cursor: pointer;
         }
         .logoGithub{
-            width: 3.5rem;;
+            width: 2.5rem;;
         }
     
         .logoContainer{
@@ -131,9 +131,10 @@
                     }
 
         .skills p{
-            font-size: 1.4rem;
+            font-size: 1.8rem;
             font-weight: 600;
             margin-bottom: 30px;
+            
        
         }
         .hardSkills ul {
@@ -164,7 +165,7 @@
 
     .hardSkills ul li{
         background-color: #2d2e32;
-        color: #F5E0B7;
+        color: whitesmoke;
         padding: 10px;
         margin: 10px;
         border-radius: 50px;
@@ -172,7 +173,7 @@
 
     .softSkills ul li{
         background-color: #2d2e32;
-        color: #F5E0B7;
+        color: whitesmoke;
         padding: 10px;
         margin: 10px;
         border-radius: 50px;
