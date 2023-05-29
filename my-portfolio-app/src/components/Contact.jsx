@@ -19,7 +19,7 @@ function Contact() {
     );
   };
   const handleConfirmation = () => {
-   toast.success('I received your message successfully 👋 !');
+   toast.success('I received your message successfully 👌 !');
   };
 
   return (
